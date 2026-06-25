@@ -3,504 +3,662 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NetGestão — Suporte Técnico em TI</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="NetGestão — Suporte técnico em TI com agilidade e segurança para sua empresa."
     />
-    <link rel="stylesheet" href="netgestao.css" />
+    <title>NetGestão | Suporte Técnico em TI</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- NAV -->
-    <nav id="navbar">
-      <div class="container nav-inner">
-        <a href="#" class="logo">
-          <span class="logo-bracket">[</span>NET<span class="logo-accent"
-            >GESTÃO</span
-          ><span class="logo-bracket">]</span>
-        </a>
-        <ul class="nav-links">
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#como-funciona">Como funciona</a></li>
-          <li><a href="#diferenciais">Diferenciais</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-        <a href="#contato" class="btn-nav">Solicitar suporte</a>
-      </div>
-    </nav>
-
-    <!-- HERO -->
-    <header id="hero">
-      <div class="hero-grid-overlay"></div>
-      <div class="container hero-inner">
-        <div class="hero-left">
-          <div class="hero-tag">
-            <span class="tag-dot"></span>
-            <span class="tag-mono">STATUS: ONLINE — 24/7</span>
-          </div>
-          <h1>
-            Suporte de TI<br /><span class="h1-accent">sem travamento.</span>
-          </h1>
-          <p class="hero-sub">
-            Atendimento remoto e presencial para empresas que não podem parar.
-            Rápido, técnico e sem enrolação.
-          </p>
-          <div class="hero-actions">
-            <a href="#contato" class="btn-primary">Falar com um técnico</a>
-            <a href="#servicos" class="btn-ghost">Ver serviços</a>
-          </div>
-          <div class="hero-stats">
-            <div class="hstat">
-              <span class="hstat-val">+500</span>
-              <span class="hstat-label">Atendimentos/mês</span>
-            </div>
-            <div class="hstat-div"></div>
-            <div class="hstat">
-              <span class="hstat-val">98%</span>
-              <span class="hstat-label">Resolução no 1º contato</span>
-            </div>
-            <div class="hstat-div"></div>
-            <div class="hstat">
-              <span class="hstat-val">&lt;1h</span>
-              <span class="hstat-label">Tempo médio de resposta</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-right">
-          <div class="terminal-card">
-            <div class="terminal-bar">
-              <span class="t-dot red"></span>
-              <span class="t-dot yellow"></span>
-              <span class="t-dot green"></span>
-              <span class="t-title">netgestao_support.sh</span>
-            </div>
-            <div class="terminal-body">
-              <div class="t-line">
-                <span class="t-prompt">$</span> iniciando_diagnóstico
-              </div>
-              <div class="t-line t-delay-1">
-                <span class="t-ok">[OK]</span> Conexão estabelecida
-              </div>
-              <div class="t-line t-delay-2">
-                <span class="t-ok">[OK]</span> Identificando sistema...
-              </div>
-              <div class="t-line t-delay-3">
-                <span class="t-ok">[OK]</span> Técnico alocado em 00:43s
-              </div>
-              <div class="t-line t-delay-4">
-                <span class="t-warn">[→]</span> Aguardando seu chamado...
-              </div>
-              <div class="t-line t-delay-5">
-                <span class="t-prompt">$</span>
-                <span class="t-cursor-blink">█</span>
-              </div>
-            </div>
-          </div>
-          <div class="hero-badge-float">
-            <div class="badge-ring"></div>
-            <div class="badge-inner">
-              <span class="badge-num">24/7</span>
-              <span class="badge-text">Suporte</span>
-            </div>
-          </div>
-        </div>
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar">
+      <div class="container">
+        <a href="#" class="logo">Net<span>Gestão</span></a>
+        <nav aria-label="Navegação principal">
+          <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#diferenciais">Por que nós</a></li>
+            <li><a href="#contato" class="nav-cta">Fale conosco</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <!-- SERVIÇOS -->
-    <section id="servicos">
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
       <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">// serviços</span>
-          <h2>O que a NetGestão resolve</h2>
-          <p>Suporte especializado para cada camada do seu ambiente de TI.</p>
+        <div class="hero-content">
+          <div class="hero-eyebrow">
+            <span>Suporte técnico em TI</span>
+          </div>
+          <h1>
+            Tecnologia que<br />
+            <em>não para</em>,<br />
+            empresa que cresce.
+          </h1>
+          <p class="hero-desc">
+            A NetGestão cuida da sua infraestrutura de TI com agilidade e
+            segurança, para que você foque no que realmente importa: o seu
+            negócio.
+          </p>
+          <div class="hero-actions">
+            <a href="#contato" class="btn-primary">Solicitar atendimento</a>
+            <a href="#servicos" class="btn-secondary">Ver serviços</a>
+          </div>
         </div>
+
+        <div class="hero-metrics" aria-label="Destaques">
+          <div class="metric-card">
+            <div class="metric-value">+500</div>
+            <div class="metric-label">Clientes atendidos</div>
+          </div>
+          <div class="metric-card accent">
+            <div class="metric-value">99%</div>
+            <div class="metric-label">
+              Taxa de resolução no primeiro contato
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-value">24h</div>
+            <div class="metric-label">SLA de atendimento garantido</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <div class="sobre-visual">
+          <div class="sobre-block">
+            <p class="sobre-block-title">Nossa missão</p>
+            <ul class="sobre-pilares">
+              <li>
+                <span class="pilar-dot"></span>
+                Manter sua operação estável com monitoramento contínuo e
+                resposta proativa a incidentes.
+              </li>
+              <li>
+                <span class="pilar-dot"></span>
+                Proteger seus dados e sistemas com soluções de segurança
+                adequadas à sua realidade.
+              </li>
+              <li>
+                <span class="pilar-dot"></span>
+                Orientar decisões tecnológicas com relatórios claros e
+                consultoria estratégica.
+              </li>
+              <li>
+                <span class="pilar-dot"></span>
+                Reduzir custos operacionais através de gestão eficiente e
+                automação de processos.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="sobre-texto">
+          <span class="tag">Quem somos</span>
+          <h2>TI gerenciada<br />de forma simples.</h2>
+          <p>
+            A NetGestão é uma empresa especializada em suporte e gestão de TI
+            para pequenas e médias empresas. Nascemos para simplificar a relação
+            entre tecnologia e negócio, entregando soluções práticas com
+            atendimento próximo.
+          </p>
+          <p>
+            Nossa equipe de técnicos certificados atende tanto de forma remota
+            quanto presencial, garantindo que nenhum problema fique sem solução
+            — independente da hora ou da complexidade.
+          </p>
+          <a href="#contato" class="btn-primary">Fale com um especialista</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVIÇOS ========== -->
+    <section class="servicos" id="servicos">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">O que fazemos</span>
+          <h2>Serviços que mantêm<br />sua empresa funcionando</h2>
+          <p>
+            Do suporte do dia a dia à gestão completa da infraestrutura de TI —
+            cobrimos cada ponto crítico do seu negócio.
+          </p>
+        </div>
+
         <div class="servicos-grid">
-          <div class="servico-card reveal">
-            <div class="sc-header">
-              <div class="sc-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                >
-                  <rect x="2" y="3" width="20" height="14" rx="2" />
-                  <path d="M8 21h8M12 17v4" />
-                </svg>
-              </div>
-              <span class="sc-badge">Remoto</span>
+          <!-- 1 -->
+          <article class="servico-card">
+            <div class="servico-icon">
+              <svg
+                viewBox="0 0 44 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="44" height="44" rx="8" fill="#EEF4FF" />
+                <path
+                  d="M14 28h16M22 20v8M18 20h8M12 16h20a2 2 0 012 2v10a2 2 0 01-2 2H12a2 2 0 01-2-2V18a2 2 0 012-2z"
+                  stroke="#1E6FD9"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </div>
-            <h3>Suporte Remoto</h3>
+            <h3>Suporte Técnico Remoto e Presencial</h3>
             <p>
-              Acesso seguro via ferramentas homologadas para diagnóstico e
-              resolução de problemas em minutos, sem deslocamento.
+              Atendimento ágil para resolver problemas de hardware, software e
+              conectividade — via chamado remoto ou visita técnica no local.
             </p>
-            <ul class="sc-list">
-              <li>Configuração de sistemas e softwares</li>
-              <li>Remoção de vírus e malware</li>
-              <li>Suporte a e-mail e Office 365</li>
-              <li>Atendimento por chat, telefone e vídeo</li>
-            </ul>
-          </div>
+          </article>
 
-          <div class="servico-card sc-destaque reveal">
-            <div class="sc-header">
-              <div class="sc-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                >
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path
-                    d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"
-                  />
-                </svg>
-              </div>
-              <span class="sc-badge sc-badge-accent">Presencial</span>
+          <!-- 2 -->
+          <article class="servico-card">
+            <div class="servico-icon">
+              <svg
+                viewBox="0 0 44 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="44" height="44" rx="8" fill="#E6FBF4" />
+                <path
+                  d="M22 13l8 4v6c0 4.5-3.4 8.7-8 10-4.6-1.3-8-5.5-8-10v-6l8-4z"
+                  stroke="#00C48C"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19 22l2 2 4-4"
+                  stroke="#00C48C"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </div>
-            <h3>Suporte Presencial</h3>
+            <h3>Segurança da Informação</h3>
             <p>
-              Técnico na sua empresa para resolver o que o remoto não alcança —
-              hardware, cabeamento, instalações e muito mais.
+              Implementação de antivírus corporativo, firewall, controle de
+              acesso e políticas de segurança para proteger seus dados contra
+              ameaças.
             </p>
-            <ul class="sc-list">
-              <li>Manutenção e troca de hardware</li>
-              <li>Instalação de equipamentos e periféricos</li>
-              <li>Configuração de roteadores e switches</li>
-              <li>Inventário e gestão de ativos de TI</li>
-            </ul>
-          </div>
+          </article>
 
-          <div class="servico-card reveal">
-            <div class="sc-header">
-              <div class="sc-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-                </svg>
-              </div>
-              <span class="sc-badge">Proativo</span>
+          <!-- 4 -->
+          <article class="servico-card">
+            <div class="servico-icon">
+              <svg
+                viewBox="0 0 44 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="44" height="44" rx="8" fill="#FEF3EC" />
+                <rect
+                  x="11"
+                  y="18"
+                  width="22"
+                  height="14"
+                  rx="2"
+                  stroke="#E07B39"
+                  stroke-width="1.6"
+                />
+                <path
+                  d="M17 18v-3a5 5 0 0110 0v3"
+                  stroke="#E07B39"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+                <circle cx="22" cy="25" r="2" fill="#E07B39" />
+              </svg>
             </div>
-            <h3>Monitoramento Contínuo</h3>
+            <h3>Gestão de Redes e Wi-Fi</h3>
             <p>
-              Acompanhamos sua infraestrutura em tempo real e agimos antes que o
-              problema afete a operação da empresa.
+              Projeto, instalação e manutenção de redes cabeadas e sem fio, com
+              configuração de switches, roteadores e VLANs corporativas.
             </p>
-            <ul class="sc-list">
-              <li>Alertas automáticos de falha</li>
-              <li>Relatórios mensais de saúde do ambiente</li>
-              <li>Backup e recuperação de dados</li>
-              <li>Atualizações e patches de segurança</li>
-            </ul>
-          </div>
+          </article>
 
-          <div class="servico-card reveal">
-            <div class="sc-header">
-              <div class="sc-icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                >
-                  <path
-                    d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
-                  />
-                </svg>
-              </div>
-              <span class="sc-badge">Helpdesk</span>
+          <!-- 5 -->
+          <article class="servico-card">
+            <div class="servico-icon">
+              <svg
+                viewBox="0 0 44 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="44" height="44" rx="8" fill="#E6FBF4" />
+                <rect
+                  x="12"
+                  y="14"
+                  width="20"
+                  height="16"
+                  rx="2"
+                  stroke="#00C48C"
+                  stroke-width="1.6"
+                />
+                <path
+                  d="M16 30v2M28 30v2M14 32h16"
+                  stroke="#00C48C"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M17 20h10M17 24h6"
+                  stroke="#00C48C"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+              </svg>
             </div>
-            <h3>Central de Helpdesk</h3>
+            <h3>Manutenção Preventiva e Corretiva</h3>
             <p>
-              Canal único de atendimento para toda a equipe. Abrimos,
-              acompanhamos e fechamos cada chamado com SLA claro.
+              Inspeções periódicas em computadores, servidores e periféricos
+              para prevenir falhas antes que se tornem problemas críticos.
             </p>
-            <ul class="sc-list">
-              <li>Sistema de tickets integrado</li>
-              <li>SLA por nível de criticidade</li>
-              <li>Histórico completo de atendimentos</li>
-              <li>Relatório de chamados para gestores</li>
-            </ul>
-          </div>
+          </article>
+
+          <!-- 6 -->
+          <article class="servico-card">
+            <div class="servico-icon">
+              <svg
+                viewBox="0 0 44 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="44" height="44" rx="8" fill="#EEF4FF" />
+                <path
+                  d="M16 22a6 6 0 0112 0v1h2v5H14v-5h2v-1z"
+                  stroke="#1E6FD9"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19 28v1a3 3 0 006 0v-1"
+                  stroke="#1E6FD9"
+                  stroke-width="1.6"
+                />
+                <path
+                  d="M22 13v2M13 18l1.5 1.5M31 18l-1.5 1.5"
+                  stroke="#1E6FD9"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3>Monitoramento Proativo 24/7</h3>
+            <p>
+              Monitoramento contínuo de servidores, links de internet e sistemas
+              críticos com alertas automáticos e resposta imediata a incidentes.
+            </p>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- COMO FUNCIONA -->
-    <section id="como-funciona" class="sect-alt">
+    <!-- ========== DIFERENCIAIS ========== -->
+    <section class="diferenciais" id="diferenciais">
       <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">// processo</span>
-          <h2>Do chamado à solução</h2>
-          <p>Um fluxo simples para resolver problemas sem burocracia.</p>
+        <div class="section-header">
+          <span class="tag">Por que NetGestão</span>
+          <h2>O que nos diferencia</h2>
+          <p>
+            Mais do que resolver problemas — construímos parceria e
+            previsibilidade para o seu negócio.
+          </p>
         </div>
-        <div class="processo-steps">
-          <div class="pstep reveal">
-            <div class="pstep-num">01</div>
-            <div class="pstep-content">
-              <h4>Abra o chamado</h4>
-              <p>
-                Via WhatsApp, telefone ou portal online — como preferir. Sem
-                formulários longos.
-              </p>
-            </div>
-          </div>
-          <div class="pstep-arrow reveal">→</div>
-          <div class="pstep reveal">
-            <div class="pstep-num">02</div>
-            <div class="pstep-content">
-              <h4>Diagnóstico imediato</h4>
-              <p>
-                Nosso técnico analisa o problema e define a melhor abordagem:
-                remoto ou presencial.
-              </p>
-            </div>
-          </div>
-          <div class="pstep-arrow reveal">→</div>
-          <div class="pstep reveal">
-            <div class="pstep-num">03</div>
-            <div class="pstep-content">
-              <h4>Resolução e fechamento</h4>
-              <p>
-                Problema resolvido, laudo técnico emitido e ticket fechado com
-                sua aprovação.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- DIFERENCIAIS -->
-    <section id="diferenciais">
-      <div class="container">
-        <div class="section-header reveal">
-          <span class="eyebrow">// por que a NetGestão</span>
-          <h2>TI que não te deixa na mão</h2>
-        </div>
-        <div class="dif-grid">
-          <div class="dif-item reveal">
-            <div class="dif-icon">⚡</div>
-            <h4>Resposta em menos de 1h</h4>
-            <p>
-              SLA garantido em contrato. Você sabe exatamente quando será
-              atendido.
-            </p>
-          </div>
-          <div class="dif-item reveal">
-            <div class="dif-icon">🔒</div>
-            <h4>Segurança primeiro</h4>
-            <p>
-              Acesso remoto com criptografia. Nenhum dado da sua empresa fica
-              exposto.
-            </p>
-          </div>
-          <div class="dif-item reveal">
-            <div class="dif-icon">📋</div>
-            <h4>Transparência total</h4>
-            <p>
-              Relatórios claros de cada atendimento, com tempo, causa e solução
-              aplicada.
-            </p>
-          </div>
-          <div class="dif-item reveal">
-            <div class="dif-icon">🛠️</div>
-            <h4>Equipe certificada</h4>
-            <p>
-              Técnicos com certificações Microsoft, CompTIA e ITIL — prontos
-              para qualquer ambiente.
-            </p>
-          </div>
-          <div class="dif-item reveal">
-            <div class="dif-icon">🔄</div>
-            <h4>Contrato flexível</h4>
-            <p>
-              Planos mensais ou sob demanda. Cresça ou ajuste conforme a
-              necessidade.
-            </p>
-          </div>
-          <div class="dif-item reveal">
-            <div class="dif-icon">📞</div>
+        <div class="diferenciais-grid">
+          <div class="diferencial-item">
+            <div class="diferencial-num">01</div>
             <h4>Atendimento humanizado</h4>
             <p>
-              Sem robô, sem transferência infinita. Você fala com quem resolve.
+              Você fala com técnicos de verdade. Sem bots, sem filas longas, sem
+              respostas genéricas.
             </p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA BANNER -->
-    <section id="cta-banner" class="sect-alt">
-      <div class="container">
-        <div class="cta-box reveal">
-          <div class="cta-glow"></div>
-          <div class="cta-content">
-            <span class="eyebrow">// disponível agora</span>
-            <h2>
-              Sua equipe parada custa caro.<br /><em>A NetGestão resolve.</em>
-            </h2>
+          <div class="diferencial-item">
+            <div class="diferencial-num">02</div>
+            <h4>SLA garantido em contrato</h4>
             <p>
-              Entre em contato agora e tenha um técnico em ação em menos de 1
-              hora.
+              Compromissos de tempo de resposta e resolução formalizados — não
+              apenas promessas.
             </p>
-            <a href="#contato" class="btn-primary btn-lg"
-              >Solicitar atendimento agora</a
-            >
+          </div>
+          <div class="diferencial-item">
+            <div class="diferencial-num">03</div>
+            <h4>Equipe certificada</h4>
+            <p>
+              Profissionais com certificações Microsoft, CompTIA e
+              especializações em segurança e redes.
+            </p>
+          </div>
+          <div class="diferencial-item">
+            <div class="diferencial-num">04</div>
+            <h4>Relatórios mensais</h4>
+            <p>
+              Transparência total: você recebe um relatório completo de tudo que
+              foi feito e do estado da sua TI.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CONTATO -->
-    <section id="contato">
-      <div class="container contato-wrap">
-        <div class="contato-info reveal">
-          <span class="eyebrow">// fale conosco</span>
-          <h2>Vamos resolver<br /><em>juntos</em></h2>
+    <!-- ========== EQUIPE ========== -->
+    <section class="equipe" id="equipe">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Nossa equipe</span>
+          <h2>As pessoas por trás<br />da NetGestão</h2>
           <p>
-            Preencha o formulário ou use um dos canais abaixo. Respondemos
-            rápido.
+            Profissionais dedicados a manter a tecnologia da sua empresa sempre
+            funcionando.
           </p>
-          <div class="contato-canais">
-            <a href="https://wa.me/5513997342745" class="canal-item">
-              <div class="canal-icon">💬</div>
-              <div>
-                <span class="canal-nome">WhatsApp</span>
-                <span class="canal-val">+55 (13) 99734-2745</span>
-              </div>
-            </a>
-            <a href="mailto:suporte@netgestao.com.br" class="canal-item">
-              <div class="canal-icon">✉</div>
-              <div>
-                <span class="canal-nome">E-mail</span>
-                <span class="canal-val">suporte@netgestao.com.br</span>
-              </div>
-            </a>
-            <div class="canal-item">
-              <div class="canal-icon">📍</div>
-              <div>
-                <span class="canal-nome">Atendimento presencial</span>
-                <span class="canal-val">Jardim Portugal e Região</span>
-              </div>
+        </div>
+
+        <div class="equipe-grid">
+          <div class="membro-card">
+            <div class="membro-avatar">LM</div>
+            <div class="membro-info">
+              <h3>Leticia Mehl</h3>
+              <span class="membro-cargo">Gerente</span>
+              <p>
+                Responsável pela gestão geral da NetGestão, coordena as
+                operações, garante a qualidade dos serviços e a satisfação dos
+                clientes.
+              </p>
+            </div>
+          </div>
+
+          <div class="membro-card">
+            <div class="membro-avatar">MJ</div>
+            <div class="membro-info">
+              <h3>Mauricio Jr</h3>
+              <span class="membro-cargo">Supervisor</span>
+              <p>
+                Supervisiona a equipe técnica, organiza os chamados e assegura
+                que os prazos de atendimento e os SLAs sejam sempre cumpridos.
+              </p>
+            </div>
+          </div>
+
+          <div class="membro-card">
+            <div class="membro-avatar">SV</div>
+            <div class="membro-info">
+              <h3>Samuel Victor</h3>
+              <span class="membro-cargo">Analista de TI</span>
+              <p>
+                Especialista em infraestrutura e redes, atua no suporte técnico
+                remoto e presencial, resolução de incidentes e manutenção
+                preventiva.
+              </p>
+            </div>
+          </div>
+
+          <div class="membro-card">
+            <div class="membro-avatar">AJ</div>
+            <div class="membro-info">
+              <h3>Ana Julia</h3>
+              <span class="membro-cargo">Analista de TI</span>
+              <p>
+                Focada em segurança da informação e monitoramento de sistemas,
+                garante a estabilidade e a proteção do ambiente tecnológico dos
+                clientes.
+              </p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <form class="contato-form reveal" novalidate>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="nome">Nome</label>
-              <input type="text" id="nome" placeholder="Seu nome" />
-            </div>
-            <div class="form-group">
-              <label for="empresa">Empresa</label>
-              <input type="text" id="empresa" placeholder="Nome da empresa" />
-            </div>
+    <!-- ========== CONTATO ========== -->
+    <section class="contato" id="contato">
+      <div class="container">
+        <div class="contato-info">
+          <span class="tag">Fale conosco</span>
+          <h2>Pronto para resolver<br />seus problemas de TI?</h2>
+          <p>
+            Entre em contato e um de nossos especialistas analisará sua situação
+            sem compromisso. O primeiro diagnóstico é por nossa conta.
+          </p>
+
+          <ul class="contato-itens">
+            <li>
+              <!-- Clique abre WhatsApp -->
+              <a
+                href="https://wa.me/5513997342745"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contato-link"
+              >
+                <div class="contato-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07A19.5 19.5 0 013.7 11.37 19.8 19.8 0 01.64 2.74 2 2 0 012.63.56h3a2 2 0 012 1.72c.127.96.36 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l.91-.97a2 2 0 012.11-.45c.907.34 1.85.573 2.81.7A2 2 0 0122 16.92z"
+                      stroke="#1E6FD9"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Telefone / WhatsApp</strong>
+                  <span>(13) 99734-2745</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <!-- Clique abre cliente de e-mail -->
+              <a href="mailto:netgestao@gmail.com" class="contato-link">
+                <div class="contato-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                      stroke="#1E6FD9"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <polyline
+                      points="22,6 12,13 2,6"
+                      stroke="#1E6FD9"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <strong>E-mail</strong>
+                  <span>netgestao@gmail.com</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <div class="contato-link contato-link--static">
+                <div class="contato-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"
+                      stroke="#1E6FD9"
+                      stroke-width="1.6"
+                    />
+                    <circle
+                      cx="12"
+                      cy="10"
+                      r="3"
+                      stroke="#1E6FD9"
+                      stroke-width="1.6"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Atendimento</strong>
+                  <span>Iguape-SP e Região</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Formulário: ao clicar em Enviar, abre WhatsApp com os dados preenchidos -->
+        <div
+          class="contato-form"
+          role="region"
+          aria-label="Formulário de contato"
+        >
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Seu Nome Completo"
+              autocomplete="name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="empresa">Empresa</label>
+            <input
+              type="text"
+              id="empresa"
+              name="empresa"
+              placeholder="Minha Empresa Ltda."
+            />
           </div>
           <div class="form-group">
             <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="voce@empresa.com.br" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="netgestao@gmail.com"
+              autocomplete="email"
+            />
           </div>
           <div class="form-group">
-            <label for="telefone">Telefone / WhatsApp</label>
-            <input type="tel" id="telefone" placeholder="(11) 99999-9999" />
+            <label for="servico">Serviço de interesse</label>
+            <select id="servico" name="servico">
+              <option value="" disabled selected>Selecione um serviço</option>
+              <option value="Suporte Técnico">Suporte Técnico</option>
+              <option value="Segurança da Informação">
+                Segurança da Informação
+              </option>
+              <option value="Gestão de Redes">Gestão de Redes</option>
+              <option value="Manutenção Preventiva">
+                Manutenção Preventiva
+              </option>
+              <option value="Monitoramento 24/7">Monitoramento 24/7</option>
+              <option value="Outro">Outro</option>
+            </select>
           </div>
           <div class="form-group">
-            <label for="mensagem">Descreva o problema ou necessidade</label>
+            <label for="mensagem">Mensagem</label>
             <textarea
               id="mensagem"
-              rows="4"
-              placeholder="Ex: computadores lentos, falha na rede, erro no sistema..."
+              name="mensagem"
+              placeholder="Descreva brevemente sua necessidade..."
             ></textarea>
           </div>
-          <button type="submit" class="btn-primary btn-full">
-            Enviar chamado <span>→</span>
-          </button>
-        </form>
+
+          <!-- Ao clicar, monta a mensagem e abre o WhatsApp -->
+          <a
+            id="btn-enviar"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="form-submit"
+            onclick="return enviarWhatsApp()"
+          >
+            Enviar mensagem via WhatsApp
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer>
-      <div class="container footer-inner">
-        <div class="footer-brand">
-          <a href="#" class="logo">
-            <span class="logo-bracket">[</span>NET<span class="logo-accent"
-              >GESTÃO</span
-            ><span class="logo-bracket">]</span>
-          </a>
-          <p>
-            Suporte técnico em TI para empresas que precisam de agilidade,
-            segurança e confiança.
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <a href="#" class="footer-logo">Net<span>Gestão</span></a>
+          <nav aria-label="Links do rodapé">
+            <ul class="footer-nav">
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#diferenciais">Diferenciais</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+          <p class="footer-copy">
+            © 2026 <span>NetGestão</span>. Todos os direitos reservados.
           </p>
-        </div>
-        <div class="footer-col">
-          <h5>Serviços</h5>
-          <ul>
-            <li><a href="#servicos">Suporte Remoto</a></li>
-            <li><a href="#servicos">Suporte Presencial</a></li>
-            <li><a href="#servicos">Monitoramento</a></li>
-            <li><a href="#servicos">Helpdesk</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h5>Empresa</h5>
-          <ul>
-            <li><a href="#como-funciona">Como funciona</a></li>
-            <li><a href="#diferenciais">Diferenciais</a></li>
-            <li><a href="#contato">Contato</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h5>Contato</h5>
-          <ul>
-            <li>
-              <a href="mailto:suporte@netgestao.com.br"
-                >suporte@netgestao.com.br</a
-              >
-            </li>
-            <li><a href="tel:+5511999999999">+55 (11) 99999-9999</a></li>
-            <li>São Paulo, SP</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <span>© 2025 NetGestão. Todos os direitos reservados.</span>
-          <span class="footer-mono">uptime: 99.97%</span>
+          <span class="footer-badge"
+            >Suporte técnico em TI · Iguape-SP e Região</span
+          >
         </div>
       </div>
     </footer>
 
     <script>
-      const io = new IntersectionObserver(
-        (entries) =>
-          entries.forEach((e) => {
-            if (e.isIntersecting) {
-              e.target.classList.add("visible");
-              io.unobserve(e.target);
-            }
-          }),
-        { threshold: 0.1 }
-      );
-      document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+      function enviarWhatsApp() {
+        var nome = document.getElementById("nome").value.trim();
+        var empresa = document.getElementById("empresa").value.trim();
+        var email = document.getElementById("email").value.trim();
+        var servico = document.getElementById("servico").value;
+        var mensagem = document.getElementById("mensagem").value.trim();
 
-      const nav = document.getElementById("navbar");
-      window.addEventListener("scroll", () => {
-        nav.classList.toggle("scrolled", window.scrollY > 50);
-      });
+        if (!nome || !mensagem) {
+          alert(
+            "Por favor, preencha ao menos o seu nome e a mensagem antes de enviar."
+          );
+          return false;
+        }
+
+        var texto =
+          "Olá, NetGestão! Vim pelo site e gostaria de solicitar um atendimento.\n\n" +
+          "*Nome:* " +
+          (nome || "—") +
+          "\n" +
+          "*Empresa:* " +
+          (empresa || "—") +
+          "\n" +
+          "*E-mail:* " +
+          (email || "—") +
+          "\n" +
+          "*Serviço de interesse:* " +
+          (servico || "—") +
+          "\n" +
+          "*Mensagem:* " +
+          (mensagem || "—");
+
+        var url =
+          "https://wa.me/5513997342745?text=" + encodeURIComponent(texto);
+        window.open(url, "_blank");
+        return false;
+      }
     </script>
   </body>
 </html>
+
+
+
